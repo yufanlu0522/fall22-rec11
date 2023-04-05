@@ -4,7 +4,7 @@ package edu.cmu.cs.cs214.rec10.games;
  * Lets two humans play a single game of tic-tac-toe.  A typical client will construct a new TicTacToe game,
  * then call {@link #play} repeatedly (with players alternating) until the game is over.
  *
- * This class is not thread-safe.
+ * This class is Thread-safe.
  */
 public final class TicTacToe {
     /** The standard size of a tic-tac-toe board. */
